@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #1f2937;
+}
+
+header {
+    background-color: #1b2843;
+    color: white;
+    padding: 25px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #d1d5db;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a78bfa;
+}
+
+main {
+    width: 82%;
+    margin: 45px auto;
+}
+
+#about {
+    background-color: white;
+    min-height: 430px;
+    padding: 55px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.about-image {
+    flex: 0 0 330px;
+    text-align: center;
+}
+
+.about-image img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 12px 30px rgba(124, 58, 237, 0.18);
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-label {
+    color: #7c3aed;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.about-content h2 {
+    font-size: 44px;
+    margin: 0 0 10px;
+    color: #111827;
+}
+
+.about-content h3 {
+    font-size: 22px;
+    color: #7c3aed;
+    margin: 0 0 20px;
+}
+
+.about-content p {
+    color: #6b7280;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+#skills,
+#projects,
+#contact {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+#skills h2,
+#projects h2,
+#contact h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #111827;
+}
+
+#skills ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#skills li {
+    flex: 1;
+    padding: 18px 15px;
+    background-color: #f5f3ff;
+    color: #6d28d9;
+    border: 1px solid #ddd6fe;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#skills li:hover {
+    background-color: #7c3aed;
+    color: white;
+    transform: translateY(-4px);
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#projects h2 {
+    width: 100%;
+}
+
+#projects article {
+    flex: 1;
+    padding: 25px;
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+#projects article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+#projects article h3 {
+    margin-top: 0;
+    color: #111827;
+    font-size: 20px;
+}
+
+#projects article p {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+#contact p {
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+#contact form {
+    margin-top: 25px;
+}
+
+#contact label {
+    font-weight: bold;
+    color: #374151;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
+}
+
+#contact textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+#contact button {
+    background-color: #111827;
+    color: white;
+    padding: 13px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact button:hover {
+    background-color: #7c3aed;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #1c263a;
+    color: #d1d5db;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+}
